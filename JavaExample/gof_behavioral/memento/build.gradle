@@ -1,0 +1,17 @@
+plugins {
+	id 'java'
+}
+
+group = 'pattern.behavioral'
+version = '0.0.1-SNAPSHOT'
+
+sourceCompatibility = javaVer17
+targetCompatibility = javaVer17
+
+dependencies {
+
+}
+
+test {
+
+}

@@ -1,0 +1,43 @@
+pluginManagement {
+	repositories {
+		mavenCentral()
+	}
+}
+
+dependencyResolutionManagement {
+	repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+	repositories {
+		mavenCentral()
+	}
+}
+
+rootProject.name = 'Java Design Pattern'
+
+// GOF 생성패턴 5가지
+include ':gof_creational:abstract_factory'
+include ':gof_creational:builder'
+include ':gof_creational:factory_method'
+include ':gof_creational:prototype'
+include ':gof_creational:singleton'
+
+// GOF 구조패턴 7가지
+include ':gof_structural:adapter'
+include ':gof_structural:bridge'
+include ':gof_structural:composite'
+include ':gof_structural:decorator'
+include ':gof_structural:facade'
+include ':gof_structural:flyweight'
+include ':gof_structural:proxy'
+
+// GOF 행위패턴 11가지
+include ':gof_behavioral:chain_responsibility'
+include ':gof_behavioral:command'
+include ':gof_behavioral:interpreter'
+include ':gof_behavioral:iterator'
+include ':gof_behavioral:mediator'
+include ':gof_behavioral:memento'
+include ':gof_behavioral:observer'
+include ':gof_behavioral:state'
+include ':gof_behavioral:strategy'
+include ':gof_behavioral:template_method'
+include ':gof_behavioral:visitor'
